@@ -43,8 +43,15 @@ The scheduler works as follows:
 ---
 
 # Customizing the Input (For Peer Testing)
-
-To test a different arrival scheme, edit the process generation method inside:
+- To test a different arrival scheme, edit the process generation method inside:
+- You can modify:
+- number of processes generated
+- arrival pattern for processes
+- burst time cycle
+- deadline cycle
+- queue assignment thresholds
+- Round Robin time quanta
+After modifying these values, recompile and run the program again.
 
 ## Compile and Run
 
